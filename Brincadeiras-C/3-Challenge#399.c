@@ -9,7 +9,7 @@ lettersum("a") => 1
 lettersum("z") => 26
 lettersum("cab") => 6
 lettersum("excellent") => 100
-lettersum("microspectrophometries") => 317
+lettersum("microspectrophotometries") => 317
 
 */
 
