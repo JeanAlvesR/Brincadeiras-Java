@@ -15,6 +15,12 @@ indicando a quantidade de linhas que o problema deve tratar. As N linhas contém
 Saída
 Para cada entrada, deve-se apresentar a mensagem criptografada
 
+4
+Texto #3             3# rvzgV
+abcABC1              1FECedc
+vxpdylY .ph          ks. \n{frzx
+vv.xwfxo.fd          gi.r{hyz-xx
+
 */
 
 #include<stdio.h>
