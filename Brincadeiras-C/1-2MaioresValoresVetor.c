@@ -18,7 +18,7 @@ void impressao(int aux1, int aux2, int i1, int i2){
 
 }
 
-//Função para fazer a entrada, verificação e impressão. Boa prática de programação.
+//Função para fazer a entrada e verificação . Boa prática de programação.
 void funcPegaDoisMaioresVal(){
     //declaração das variáveis
     int n, i, aux1 = 0, aux2 = 0, indice1 = 0, indice2 = 0;
@@ -52,7 +52,6 @@ void funcPegaDoisMaioresVal(){
     impressao(aux1, aux2, indice1, indice2);
     
 }
-
 
 //função principal
 int main(){
