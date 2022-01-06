@@ -43,9 +43,9 @@ void verificador(char raj[], char shel[], char R[]){
     if((strcmp(raj, shel)==0)){
         strcpy(R, "De novo!");
     }
-    else{//Pensando em uma forma melhor...
+    else{//Pensando em uma forma melhor... Condição de vitória
     	if((strcmp(raj, "tesoura")==0)){
-        //condição de vitória
+        
         	if(strcmp(shel,"papel")==0 || strcmp(shel,"lagarto")==0){
            		strcpy(R, "Raj trapaceou!");
         	}
