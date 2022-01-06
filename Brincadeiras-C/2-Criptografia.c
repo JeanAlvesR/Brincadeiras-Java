@@ -19,49 +19,24 @@ Para cada entrada, deve-se apresentar a mensagem criptografada
 
 #include<stdio.h>
 #include<string.h>
-
 int main(){
-	
 	int n,i,j,k;
-	char vetor[20], aux;
-	
+	char vetor[1000], temp;
 	scanf("%d ",&n);
-		
 	for (i = 0; i<n; i++){
-
 		gets(vetor);
-		//Tamanho do Vetor - 1, pois vetor se inicia no 0. 
 		k = strlen(vetor) -1;
-		
-		//printf("\n\nVetor Completo: %s\n",vetor);
-			//1 - pula 3 casas na tabela ASCII
 			for(j=0; j<(strlen(vetor)); j++){
-				
-					if(vetor[j]<65) {vetor[j]-=3;}
-				
-				vetor[j] +=3;
-				
+					if(vetor[j]>64 && vetor[j]<91 || vetor[j]<123 && vetor[j]>96){vetor[j] +=3;}
 			}
-		
-			
-			//2 - Inverte 
 			for(j=0; j<(strlen(vetor)/2); j++){
-				aux = vetor[j];
+				temp = vetor[j];
 				vetor[j] = vetor[k];
-				vetor[k] = aux;
+				vetor[k] = temp;
 				k -=1;
-			}	
-		
-			//3 - Na metade retorna uma casa na tabela ASCII
-			for(j=(strlen(vetor)/2 ); j<(strlen(vetor)); j++){
-				
-				vetor[j] -=1;
-					
 			}
-			
+			for(j=(strlen(vetor)/2 ); j<(strlen(vetor)); j++){vetor[j] -=1;}
 			printf("%s\n",vetor);	
 	}
-	
-		
 	return 0;
 }
