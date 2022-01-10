@@ -1,0 +1,9 @@
+NOME: JEAN ALVES ROCHA
+RA: 2313057
+
+OBS: Variei um pouco a forma de lidar com as classes: Algumas eu criei um objeto e outras testei os métodos diretos.
+Todas as referências estão nos códigos. Utilizei 3 diferentes para corroborar a solução do trabalho. Espero que seja isso que o senhor pediu. 
+
+Interpretação sobre a classe wrappers: As classes wrappers são excelentes para lidar com dados primitivos, pois estes não tem métodos. 
+A utilização de métodos através do envelopamento complementa ainda mais o paradigma da orientação a objetos.
+
